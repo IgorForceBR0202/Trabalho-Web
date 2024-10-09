@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Grid</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="topnav">
+        <a class="activer" href="#home" target="_top">Home</a>
+        <a href="login.html">Login</a>
+        <a href="contact.html">Contato</a>
+        <a href="about.html" target="_blank">Sobre</a>
+      </div>
+
+     <!-- Carrossel abaixo do header -->
+
+     <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="ps5-pro.webp" class="slide-image">
+          <div class="text">DESTAQUE</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="ps5carrossel.webp" class="slide-image">
+          <div class="text">O MAIS QUERIDO PELA GALERA</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="gta6.jpg" class="slide-image">
+          <div class="text">CONFIRA NOSSO DESTAQUE</div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Musica para meus ouvidos !-->
+     <h2>Música para meus ouvidos</h2>
+    <audio controls>
+        <source src="The Last of Us Part II (Main Theme) _ The Last of Us Part II (Original Soundtrack).mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+      </audio>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

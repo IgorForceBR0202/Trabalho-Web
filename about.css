@@ -1,0 +1,169 @@
+body{
+    margin : 0px;
+    padding: 0 px;
+    
+}
+
+.topnav {
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    padding: 20px;
+    background-attachment: fixed;
+    
+  }
+  
+ 
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #dddddd00;
+    color: rgb(17, 0, 255);
+    height: auto;
+   
+  }
+
+  .about-us {
+    font-family: "Poppins", sans-serif;
+  }
+  
+ 
+  .topnav a.activer {
+    background-color:  rgba(0, 0, 0, 0);
+    color: white;
+    /* #002f5c; */
+   
+  }
+
+  /* Fim header do about */
+  /* ----------------------------------------------- */
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.about-us {
+    margin-top: 200px;
+}
+
+.container {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.text-about {
+    font-family: "Poppins", sans-serif;
+}
+
+.divisao{
+    padding: 100px;
+}
+
+.img-about>img {
+    width: 40rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-left: 20px;
+}
+
+.about-text1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    
+.container {
+        
+flex-direction: column; /* Altera a direção do flex para coluna em telas menores */
+        
+align-items: center; /* Centraliza os itens */
+    
+}
+
+.divisao {
+        
+    padding: 20px; /* Reduz o padding em telas menores */
+    flex: 0 0 100%; /* Faz a divisão ocupar toda a largura em telas menores */
+    }
+    
+    .text-about {
+            
+    text-align: center; /* Centraliza o texto em telas menores */
+    flex: 1; /* Permite que o texto ocupe o espaço disponível */
+    padding: 20px; /* Adiciona um pouco de espaçamento */
+    }
+    
+    .img-about {
+            
+    margin-top: 20px; /* Adiciona um pouco de margem superior em telas menores */
+    width: 100%; /* Faz a imagem ocupar 100% do seu contêiner */
+    max-width: 40rem; /* Define a largura máxima da imagem */
+    border-radius: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    
+.about-us {
+            
+margin-top: 100px; /* Ajusta a margem superior em telas muito pequenas */
+}
+
+.about-text1, .about-text2 {
+        
+font-size: 0.9rem; /* Reduz o tamanho da fonte para melhor legibilidade */
+}
+
+
+.container {
+        
+    flex-direction: column; /* Altera a direção do flex para coluna em telas menores */
+            
+    align-items: center; /* Centraliza os itens */
+        
+    }
+    
+    .divisao {
+            
+        padding: 10px; /* Reduz o padding em telas menores */
+        flex: 0 0 100%; /* Faz a divisão ocupar toda a largura em telas menores */
+        }
+        
+        .text-about {
+                
+        text-align: center; /* Centraliza o texto em telas menores */
+        flex: 1; /* Permite que o texto ocupe o espaço disponível */
+        padding: 10px; /* Adiciona um pouco de espaçamento */
+        }
+        
+        .img-about {
+                
+        margin-top: 10px; /* Adiciona um pouco de margem superior em telas menores */
+        width: 100%; /* Faz a imagem ocupar 100% do seu contêiner */
+        max-width: 20rem; /* Define a largura máxima da imagem */
+        border-radius: 10px;
+        }
+}
+
+    
+
