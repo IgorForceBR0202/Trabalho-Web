@@ -74,10 +74,11 @@ body{
 }
 
 .img-about>img {
-    width: 40rem;
+    width: 30rem;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     margin-left: 20px;
+    margin-top: -20px;
 }
 
 .about-text1 {
@@ -86,37 +87,34 @@ body{
 }
 
 
-
-
-
 @media (max-width: 768px) {
     
 .container {
         
-flex-direction: column; /* Altera a direção do flex para coluna em telas menores */
+flex-direction: column; 
         
-align-items: center; /* Centraliza os itens */
+align-items: center; 
     
 }
 
 .divisao {
         
-    padding: 20px; /* Reduz o padding em telas menores */
-    flex: 0 0 100%; /* Faz a divisão ocupar toda a largura em telas menores */
+    padding: 20px; 
+    flex: 0 0 100%; 
     }
     
     .text-about {
             
-    text-align: center; /* Centraliza o texto em telas menores */
-    flex: 1; /* Permite que o texto ocupe o espaço disponível */
-    padding: 20px; /* Adiciona um pouco de espaçamento */
+    text-align: center; 
+    flex: 1; 
+    padding: 20px; 
     }
     
     .img-about {
             
-    margin-top: 20px; /* Adiciona um pouco de margem superior em telas menores */
-    width: 100%; /* Faz a imagem ocupar 100% do seu contêiner */
-    max-width: 40rem; /* Define a largura máxima da imagem */
+    margin-top: 20px; 
+    width: 100%; 
+    max-width: 40rem; 
     border-radius: 10px;
     }
 }
@@ -126,44 +124,43 @@ align-items: center; /* Centraliza os itens */
     
 .about-us {
             
-margin-top: 100px; /* Ajusta a margem superior em telas muito pequenas */
+margin-top: 100px; 
 }
 
 .about-text1, .about-text2 {
         
-font-size: 0.9rem; /* Reduz o tamanho da fonte para melhor legibilidade */
-}
+font-size: 0.9rem; 
 
 
 .container {
         
-    flex-direction: column; /* Altera a direção do flex para coluna em telas menores */
+    flex-direction: column; 
             
-    align-items: center; /* Centraliza os itens */
+    align-items: center; 
         
     }
     
     .divisao {
             
-        padding: 10px; /* Reduz o padding em telas menores */
-        flex: 0 0 100%; /* Faz a divisão ocupar toda a largura em telas menores */
+        padding: 10px; 
+        flex: 0 0 100%; 
         }
         
         .text-about {
                 
-        text-align: center; /* Centraliza o texto em telas menores */
-        flex: 1; /* Permite que o texto ocupe o espaço disponível */
-        padding: 10px; /* Adiciona um pouco de espaçamento */
+        text-align: center; 
+        flex: 1; 
+        padding: 10px; 
         }
         
         .img-about {
                 
-        margin-top: 10px; /* Adiciona um pouco de margem superior em telas menores */
-        width: 100%; /* Faz a imagem ocupar 100% do seu contêiner */
-        max-width: 20rem; /* Define a largura máxima da imagem */
+        margin-top: 10px; 
+        width: 100%; 
+        max-width: 20rem; 
         border-radius: 10px;
         }
 }
-
+}
     
 

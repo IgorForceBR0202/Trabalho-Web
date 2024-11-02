@@ -17,6 +17,7 @@
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     padding-right: 1rem;
     padding-left: 1rem;
+    background: url(Imagens\ trabalho/thumb-1920-1371029.png);
   }
   
   h1,
@@ -29,7 +30,7 @@
   }
   
   h1::before {
-    content: "📧";
+    content: "🤔";
     display: block;
   }
   
@@ -85,7 +86,7 @@
   .form button {
     display: block;
     padding: 1rem;
-    background: #0072c4;
+    background: #0003ce;
     color: #fff;
     font: inherit;
     text-transform: uppercase;
@@ -98,5 +99,5 @@
   .form button:hover,
   .form button:focus {
     outline: none;
-    background: #09d;
+    background: black;
   }
